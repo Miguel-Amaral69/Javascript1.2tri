@@ -24,5 +24,9 @@ function calculadora(ari,a,b){
         case '/':
             resultado = a / b;
             break;
+            default:
+                resultado = 'Operador Inválido';
     }
+    return resultado
+    
 }
